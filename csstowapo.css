@@ -1,0 +1,41 @@
+*{
+    min-height: 50px;
+}
+#contenedor{
+    border: 2px solid salmon;
+}
+/* #primero{
+    width: 100%;
+    background-color: gray;
+}
+#segundo{
+    width: 50%;
+    background-color: #444444;
+}
+#tercero{
+    width: 50%;
+    background-color: gray;
+}
+#cuarto{
+    width: 50%;
+    background-color: #444444;
+}
+#quinto{
+    width: 25%;
+    background-color: gray;
+} */
+.ancho-100{
+    width: 100%;
+}
+.ancho-50{
+    width: 50%;
+}
+.ancho-25{
+    width: 25%;
+}
+.gris-claro{
+    background-color: gray;
+}
+.gris-oscuro{
+    background-color: #444444;
+}
