@@ -1,9 +1,8 @@
 *{
     min-height: 50px;
+    box-sizing: border-box;
 }
-#contenedor{
-    border: 2px solid salmon;
-}
+
 /* #primero{
     width: 100%;
     background-color: gray;
@@ -38,4 +37,18 @@
 }
 .gris-oscuro{
     background-color: #444444;
+}
+
+#contenedor{
+    border: 2px solid salmon;
+    padding: 12px;
+    max-width: 600px;
+}
+
+#contenedor > *{
+    padding:12px;
+}
+
+#contenedor > *:not(:last-child){
+    margin-bottom:12px;
 }
